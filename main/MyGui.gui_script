@@ -1,0 +1,728 @@
+local function randomNumber()
+	math.randomseed(os.time())
+	number = math.random() and math.random() and math.random() and math.random(0, 25)
+	return number
+end
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	math.randomseed(os.time())
+	msg.post(".", "acquire_input_focus")
+	text12 = math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text"), text12)
+	text13= math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text1"), text13)
+	text14=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text2"), text14)
+	text15=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text3"), text15)
+	text16=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text4"),text16)
+	text17=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text5"), text17)
+	
+	text18=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text6"), text18)
+	text19=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text7"), text19)
+	text20=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text8"), text20)
+	text21=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text9"), text21)
+	text22=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text10"), text22)
+	text23=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text11"), text23)
+	text24=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text12"), text24)
+	
+	gui.set_texture(gui.get_node("box12"), "Atlas")
+	gui.play_flipbook(gui.get_node("box12"), "goldencoin")
+	
+	text25=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text13"), text25)
+	text26=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text14"), text26)
+	text27=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text12"), text27)
+	text28=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text13"), text28)
+	text29=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text14"), text29)
+	text30=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text15"), text30)
+	text31=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text16"), text31)
+	text32=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text17"), text32)
+	text33=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text18"), text33)
+	text34=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text19"), text34)
+	text35=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text20"), text35)
+	text36=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text21"), text36)
+	text37=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text22"), text37)
+	text38=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text23"), text38)
+	text39=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text24"), text39)
+	text40=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text25"), text40)
+	text41=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text26"), text41)
+	text42=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text27"), text42)
+	text43=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text28"), text43)
+	text44=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text29"), text44)
+	text45=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text30"), text45)
+	text46=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text31"), text46)
+	text47=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text32"), text47)	
+	text48=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text33"), text48)
+	text49=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text34"), text49)
+	
+	text50=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text35"), text50)
+	text51=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text36"), text51)
+	text52=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text37"), text52)
+	text53=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text38"), text53)
+	text54=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text39"), text54)
+	text55=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text40"), text55)
+	text56=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text41"), text56)
+	text57=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text42"), text57)
+	text58=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text43"), text58)
+	text59=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text44"), text59)
+	text60=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text45"), text60)
+	text61=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text46"), text61)
+	text62=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text47"), text62)
+	text63=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text48"), text63)
+	text61=math.random() and math.random() and math.random() and math.random(2, 25)
+	gui.set_text(gui.get_node("text49"), text61)
+	local n = gui.get_node("box10")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "goldencoin")
+	local n = gui.get_node("box13")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "goldencoin")
+	local n = gui.get_node("box35")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "goldencoin")
+
+	local n = gui.get_node("box22")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "treasureBox")
+	local n = gui.get_node("box32")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "treasureBox")
+	local n = gui.get_node("box42")
+	gui.set_texture(n, "Atlas")
+	gui.play_flipbook(n, "treasureBox")
+end
+
+function update(self, dt)
+end
+
+function on_message(self, message_id, message, sender)
+end
+
+function on_input(self, action_id, action)
+
+	if(action_id == hash("LEFT_CLICK") and action.released == true) then
+		local box = gui.get_node("box")
+		local text =gui.get_node("text")
+		local nu=gui.get_text(text)
+		if(gui.pick_node(box, action.x, action.y)) then
+			if(gui.get_text(text) == "*") then
+				gui.set_text(text, text12)
+			else	
+				local n = gui.get_node("box")
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "star1252")
+			end
+		end
+		--2nd node
+		local box1 = gui.get_node("box1")
+		local text1 =gui.get_node("text1")
+		local nu=gui.get_text(text1)
+		print(gui.get_text(text1))
+		if(gui.pick_node(box1, action.x, action.y)) then
+			if(gui.get_text(text1) == "*") then
+				gui.set_text(text1, text13)
+			else	
+				local n = gui.get_node("box1")
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "Armature_rotataing_10")
+			end
+		end
+		--3nd node
+		local box2 = gui.get_node("box2")
+		local text2 =gui.get_node("text2")
+		local nu=gui.get_text(text2)
+		if(gui.pick_node(box2, action.x, action.y)) then
+			if(gui.get_text(text2) == "*") then
+				gui.set_text(text2, text14)
+			else	
+				gui.set_text(text2, "*")
+				
+				
+			end
+		end
+		--4nd node
+		local box3 = gui.get_node("box3")
+		local text3 =gui.get_node("text3")
+		local nu=gui.get_text(text3)
+		if(gui.pick_node(box3, action.x, action.y)) then
+			if(gui.get_text(text3) == "*") then
+				gui.set_text(text3, text15)
+			else	
+				gui.set_text(text3, "*")
+			end
+		end
+		--5nd node
+		local box4 = gui.get_node("box4")
+		local text4 =gui.get_node("text4")
+		local nu=gui.get_text(text4)
+		if(gui.pick_node(box4, action.x, action.y)) then
+			if(gui.get_text(text4) == "*") then
+				gui.set_text(text4, text16)
+			else	
+				gui.set_text(text4, "*")
+			end
+		end
+		--6nd node
+		local box5 = gui.get_node("box5")
+		local text5 =gui.get_node("text5")
+		local nu=gui.get_text(text5)
+		if(gui.pick_node(box5, action.x, action.y)) then
+			if(gui.get_text(text5) == "*") then
+				gui.set_text(text5, text17)
+			else	
+				gui.set_text(text5, "*")
+			end
+		end
+		--7nd node
+		local box6 = gui.get_node("box6")
+		local text6 =gui.get_node("text6")
+		local nu=gui.get_text(text6)
+		if(gui.pick_node(box6, action.x, action.y)) then
+			if(gui.get_text(text6) == "*") then
+				gui.set_text(text6, text18)
+			else	
+				gui.set_text(text6, "*")
+			end
+		end
+		--8nd node
+		local box7 = gui.get_node("box7")
+		local text7 =gui.get_node("text7")
+		local nu=gui.get_text(text7)
+		if(gui.pick_node(box7, action.x, action.y)) then
+			if(gui.get_text(text7) == "*") then
+				gui.set_text(text7, text19)
+			else	
+				gui.set_text(text7, "*")
+			end
+		end
+		--9nd node
+		local box8 = gui.get_node("box8")
+		local text8 =gui.get_node("text8")
+		local nu=gui.get_text(text8)
+		if(gui.pick_node(box8, action.x, action.y)) then
+			if(gui.get_text(text8) == "*") then
+				gui.set_text(text8, text20)
+			else	
+				gui.set_text(text8, "*")
+				gui.set_texture(star1252, "star1252")
+			end
+		end
+		--10nd node
+		local box9 = gui.get_node("box9")
+		local text9 =gui.get_node("text9")
+		local nu=gui.get_text(text9)
+		if(gui.pick_node(box9, action.x, action.y)) then
+			if(gui.get_text(text9) == "*") then
+				gui.set_text(text9, text21)
+			else	
+				local n = gui.get_node("box9")
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "star1252")
+			end
+		end
+		--11nd node
+		local box10 = gui.get_node("box10")
+		local text10 =gui.get_node("text10")
+		local nu=gui.get_text(text10)
+		if(gui.pick_node(box10, action.x, action.y)) then
+			if(gui.get_text(text10) == "*") then
+				gui.set_text(text10, text22)
+			else	
+				gui.set_text(text10, "*")
+			end
+		end
+		--12nd node
+		local box11 = gui.get_node("box11")
+		local text11 =gui.get_node("text11")
+		local nu=gui.get_text(text11)
+		if(gui.pick_node(box11, action.x, action.y)) then
+			if(gui.get_text(text11) == "*") then
+				gui.set_text(text11, text23)
+				gui.set_texture(box11, "Atlas")
+				gui.play_flipbook(box11, "goldencoin")
+			else	
+				gui.set_text(text11, "*")
+			end
+		end
+		--13nd node
+		local box12 = gui.get_node("box12")
+		local text12 =gui.get_node("text12")
+		local nu=gui.get_text(text11)
+		if(gui.pick_node(box12, action.x, action.y)) then
+			if(gui.get_text(text12) == "*") then
+				gui.set_text(text12, text24)
+			else	
+				gui.set_text(text12, "*")
+			end
+		end
+		--14nd node
+		local box13 = gui.get_node("box13")
+		local text13 =gui.get_node("text13")
+		local nu=gui.get_text(text13)
+		if(gui.pick_node(box13, action.x, action.y)) then
+			if(gui.get_text(text13) == "*") then
+				gui.set_text(text13, text25)
+			else	
+				gui.set_text(text13, "*")
+			end
+		end
+		--15nd node
+		local box14 = gui.get_node("box14")
+		local text14 =gui.get_node("text14")
+		local nu=gui.get_text(text14)
+		if(gui.pick_node(box14, action.x, action.y)) then
+			if(gui.get_text(text14) == "*") then
+				gui.set_text(text14, text26)
+			else	
+				gui.set_text(text14, "*")
+				self.current_animation=hash("star")
+				self.speed=vmath.vector3(0,0,0)
+			end
+		end
+		--16nd node
+		local box15 = gui.get_node("box15")
+		local text15 =gui.get_node("text15")
+		local nu=gui.get_text(text15)
+		if(gui.pick_node(box15, action.x, action.y)) then
+			if(gui.get_text(text15) == "*") then
+				gui.set_text(text15, text27)
+			else	
+				gui.set_text(text15, "*")
+			end
+		end
+		--17nd node
+		local box16 = gui.get_node("box16")
+		local text16 =gui.get_node("text16")
+		local nu=gui.get_text(text16)
+		if(gui.pick_node(box16, action.x, action.y)) then
+			if(gui.get_text(text16) == "*") then
+				gui.set_text(text16, text28)
+			else	
+				gui.set_text(text16, "*")
+			end
+		end
+		--18nd node
+		local box17 = gui.get_node("box17")
+		local text17 =gui.get_node("text17")
+		local nu=gui.get_text(text17)
+		if(gui.pick_node(box17, action.x, action.y)) then
+			if(gui.get_text(text17) == "*") then
+				gui.set_text(text17, text29)
+			else	
+				gui.set_text(text17, "*")
+			end
+		end
+		--19nd node
+		local box18 = gui.get_node("box18")
+		local text18 =gui.get_node("text18")
+		local nu=gui.get_text(text18)
+		if(gui.pick_node(box18, action.x, action.y)) then
+			if(gui.get_text(text18) == "*") then
+				gui.set_text(text18, text30)
+			else	
+				gui.set_text(text18, "*")
+			end
+		end
+		--20nd node
+		local box19 = gui.get_node("box19")
+		local text19 =gui.get_node("text19")
+		local nu=gui.get_text(text19)
+		if(gui.pick_node(box19, action.x, action.y)) then
+			if(gui.get_text(text19) == "*") then
+				gui.set_text(text19, text31)
+			else	
+				gui.set_text(text19, "*")
+			end
+		end
+		--21nd node
+		local box20 = gui.get_node("box20")
+		local text20 =gui.get_node("text20")
+		local nu=gui.get_text(text20)
+		if(gui.pick_node(box20, action.x, action.y)) then
+			if(gui.get_text(text20)== "*") then
+				gui.set_text(text20, text32)
+			else	
+				local n = gui.get_node("box20")
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "star1252")
+			end
+		end
+		--22nd node
+		local box21 = gui.get_node("box21")
+		local text21 =gui.get_node("text21")
+		local nu=gui.get_text(text21)
+		if(gui.pick_node(box21, action.x, action.y)) then
+			if(gui.get_text(text21) == "*") then
+				gui.set_text(text21, text33)
+			else	
+				gui.set_text(text21, "*")
+			end
+		end
+		--23nd node
+		local box22 = gui.get_node("box22")
+		local text22 =gui.get_node("text22")
+		local nu=gui.get_text(text22)
+		if(gui.pick_node(box22, action.x, action.y)) then
+			if(gui.get_text(text22) == "*") then
+				gui.set_text(text22, text34)
+			else	
+				gui.set_text(text22, "*")
+			end
+		end
+		--24nd node
+		local box23 = gui.get_node("box23")
+		local text23 =gui.get_node("text23")
+		local nu=gui.get_text(text23)
+		if(gui.pick_node(box23, action.x, action.y)) then
+			if(gui.get_text(text23) == "*") then
+				gui.set_text(text23, text35)
+			else	
+				local n = gui.get_node("box23")
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "star1252")
+			end
+		end
+		--25nd node
+		local box24 = gui.get_node("box24")
+		local text24 =gui.get_node("text24")
+		local nu=gui.get_text(text24)
+		if(gui.pick_node(box24, action.x, action.y)) then
+			if(gui.get_text(text24) == "*") then
+				gui.set_text(text24, text36)
+			else	
+				gui.set_text(text24, "*")
+			end
+		end
+		--26nd node
+		local box25 = gui.get_node("box25")
+		local text25 =gui.get_node("text25")
+		local nu=gui.get_text(text24)
+		if(gui.pick_node(box25, action.x, action.y)) then
+			if(gui.get_text(text25) == "*") then
+				gui.set_text(text25, text37)
+			else	
+				gui.set_text(text25, "*")
+			end
+		end
+		--27nd node
+		local box26 = gui.get_node("box26")
+		local text26 =gui.get_node("text26")
+		local nu=gui.get_text(text26)
+		if(gui.pick_node(box26, action.x, action.y)) then
+			if(gui.get_text(text26) == "*") then
+				gui.set_text(text26, text38)
+			else	
+				gui.set_text(text26, "*")
+			end
+		end
+		--28nd node
+		local box27 = gui.get_node("box27")
+		local text27 =gui.get_node("text27")
+		local nu=gui.get_text(text27)
+		if(gui.pick_node(box27, action.x, action.y)) then
+			if(gui.get_text(text27) == "*") then
+				gui.set_text(text27, text39)
+			else	
+				gui.set_text(text27, "*")
+			end
+		end
+		--29nd node
+		local box28 = gui.get_node("box28")
+		local text28 =gui.get_node("text28")
+		local nu=gui.get_text(text28)
+		if(gui.pick_node(box28, action.x, action.y)) then
+			if(gui.get_text(text28) == "*") then
+				gui.set_text(text28, text40)
+			else	
+				gui.set_text(text28, "*")
+			end
+		end
+		--30nd node
+		local box29 = gui.get_node("box29")
+		local text29 =gui.get_node("text29")
+		local nu=gui.get_text(text29)
+		if(gui.pick_node(box29, action.x, action.y)) then
+			if(gui.get_text(text29) == "*") then
+				gui.set_text(text29, text41)
+			else	
+				gui.set_text(text29, "*")
+			end
+		end
+		--31nd node
+		local box30 = gui.get_node("box30")
+		local text30 =gui.get_node("text30")
+		local nu=gui.get_text(text30)
+		if(gui.pick_node(box30, action.x, action.y)) then
+			if(gui.get_text(text30) == "*") then
+				gui.set_text(text30, text42)
+			else	
+				gui.set_text(text30, "*")
+			end
+		end
+		--32nd node
+		local box31 = gui.get_node("box31")
+		local text31 =gui.get_node("text31")
+		local nu=gui.get_text(text31)
+		if(gui.pick_node(box31, action.x, action.y)) then
+			if(gui.get_text(text31) == "*") then
+				gui.set_text(text31, text43)
+			else	
+				gui.set_text(text31, "*")
+			end
+		end
+		--33nd node
+		local box32 = gui.get_node("box32")
+		local text32 =gui.get_node("text32")
+		local nu=gui.get_text(text32)
+		if(gui.pick_node(box32, action.x, action.y)) then
+			if(gui.get_text(text32) == "*") then
+				gui.set_text(text32, text44)
+			else	
+				gui.set_text(text32, "*")
+			end
+		end
+		--34nd node
+		local box33 = gui.get_node("box33")
+		local text33 =gui.get_node("text33")
+		local nu=gui.get_text(text32)
+		if(gui.pick_node(box33, action.x, action.y)) then
+			if(gui.get_text(text33) == "*") then
+				gui.set_text(text33, text45)
+			else	
+				gui.set_text(text33, "*")
+			end
+		end
+		--35nd node
+		local box34 = gui.get_node("box34")
+		local text34 =gui.get_node("text34")
+		local nu=gui.get_text(text34)
+		if(gui.pick_node(box34, action.x, action.y)) then
+			if(gui.get_text(text34) == "*") then
+				gui.set_text(text34, text46)
+			else	
+				gui.set_text(text34, "*")
+			end
+		end
+		--36nd node
+		local box35 = gui.get_node("box35")
+		local text35 =gui.get_node("text35")
+		local nu=gui.get_text(text35)
+		if(gui.pick_node(box35, action.x, action.y)) then
+			if(gui.get_text(text35) == "*") then
+				gui.set_text(text35, text47)
+			else	
+				gui.set_text(text35, "*")
+			end
+		end
+		--37nd node
+		local box36 = gui.get_node("box36")
+		local text36 =gui.get_node("text36")
+		local nu=gui.get_text(text36)
+		if(gui.pick_node(box36, action.x, action.y)) then
+			if(gui.get_text(text36) == "*") then
+				gui.set_text(text36, text48)
+			else	
+				gui.set_text(text36, "*")
+			end
+		end
+		--38nd node
+		local box37 = gui.get_node("box37")
+		local text37 =gui.get_node("text37")
+		local nu=gui.get_text(text37)
+		if(gui.pick_node(box37, action.x, action.y)) then
+			if(gui.get_text(text37) == "*") then
+				gui.set_text(text37, text49)
+			else	
+				gui.set_text(text37, "*")
+			end
+		end
+		--39nd node
+		local box38 = gui.get_node("box38")
+		local text38 =gui.get_node("text38")
+		local nu=gui.get_text(text38)
+		if(gui.pick_node(box38, action.x, action.y)) then
+			if(gui.get_text(text38) == "*") then
+				gui.set_text(text38, text50)
+			else	
+				gui.set_text(text38, "*")
+			end
+		end
+		--40nd node
+		local box39 = gui.get_node("box39")
+		local text39 =gui.get_node("text39")
+		local nu=gui.get_text(text39)
+		if(gui.pick_node(box39, action.x, action.y)) then
+			if(gui.get_text(text39) == "*") then
+				gui.set_text(text39, text51)
+			else	
+				gui.set_text(text39, "*")
+			end
+		end
+		--41nd node
+		local box40 = gui.get_node("box40")
+		local text40 =gui.get_node("text40")
+		local nu=gui.get_text(text40)
+		if(gui.pick_node(box40, action.x, action.y)) then
+			if(gui.get_text(text40) == "*") then
+				gui.set_text(text40, text52)
+			else	
+				gui.set_text(text40, "*")
+			end
+		end
+		--42nd node
+		local box41 = gui.get_node("box41")
+		local text41 =gui.get_node("text41")
+		local nu=gui.get_text(text41)
+		if(gui.pick_node(box41, action.x, action.y)) then
+			if(gui.get_text(text41) == "*") then
+				gui.set_text(text41, text53)
+			else	
+				gui.set_text(text41, "*")
+			end
+		end
+		--43nd node
+		local box42 = gui.get_node("box42")
+		local text42 =gui.get_node("text42")
+		local nu=gui.get_text(text42)
+		if(gui.pick_node(box42, action.x, action.y)) then
+			if(gui.get_text(text42) == "*") then
+				gui.set_text(text42, text54)
+			else	
+				gui.set_text(text42, "*")
+			end
+		end
+		--44nd node
+		local box43 = gui.get_node("box43")
+		local text43 =gui.get_node("text43")
+		local nu=gui.get_text(text43)
+		if(gui.pick_node(box43, action.x, action.y)) then
+			if(gui.get_text(text43) == "*") then
+				gui.set_text(text43, text55)
+			else	
+				gui.set_text(text43, "*")
+			end
+		end
+		--45nd node
+		local box44 = gui.get_node("box44")
+		local text44 =gui.get_node("text44")
+		local nu=gui.get_text(text44)
+		if(gui.pick_node(box44, action.x, action.y)) then
+			if(gui.get_text(text44) == "*") then
+				gui.set_text(text44, text56)
+			else	
+				gui.set_text(text44, "*")
+			end
+		end
+		--46nd node
+		local box45 = gui.get_node("box45")
+		local text45 =gui.get_node("text45")
+		local nu=gui.get_text(text45)
+		if(gui.pick_node(box45, action.x, action.y)) then
+			if(gui.get_text(text45) == "*") then
+				gui.set_text(text45, text57)
+			else	
+				gui.set_text(text45, "*")
+			end
+		end
+		--47nd node
+		local box46 = gui.get_node("box46")
+		local text46 =gui.get_node("text46")
+		local nu=gui.get_text(text46)
+		if(gui.pick_node(box46, action.x, action.y)) then
+			if(gui.get_text(text46) == "*") then
+				gui.set_text(text46, text58)
+			else	
+				gui.set_text(text46, "*")
+			end
+		end
+		--48nd node
+		local box47 = gui.get_node("box47")
+		local text47 =gui.get_node("text47")
+		local nu=gui.get_text(text47)
+		if(gui.pick_node(box47, action.x, action.y)) then
+			if(gui.get_text(text47) == "*") then
+				gui.set_text(text47, text59)
+			else	
+				gui.set_text(text47, "*")
+			end
+		end
+		--49nd node
+		local box48 = gui.get_node("box48")
+		local text48 =gui.get_node("text48")
+		local nu=gui.get_text(text48)
+		if(gui.pick_node(box48, action.x, action.y)) then
+			if(gui.get_text(text48) == "*") then
+				gui.set_text(text48, text60)
+			else	
+				gui.set_text(text48, "*")
+			end
+		end
+		--50nd node
+		local box49 = gui.get_node("box49")
+		local text49 =gui.get_node("text49")
+		local nu=gui.get_text(text49)
+		
+	
+		if(gui.pick_node(box49, action.x, action.y)) then
+			if(gui.get_text(text49) == "*") then
+				--gui.delete_texture("Atlas")
+				gui.delete_texture(self) 
+				gui.set_text(text49, text61)
+			else	
+				gui.set_text(text49, "*")
+				local n = gui.get_node("box49")
+				--print(gui.get_texture(n))
+				gui.set_texture(n, "Atlas")
+				gui.play_flipbook(n, "moving")
+			end
+		end
+	end
+end

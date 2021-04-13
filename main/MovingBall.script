@@ -1,0 +1,38 @@
+function init(self)
+	go.set(".", "position.x", 50)
+	go.animate(".", "position.x", go.PLAYBACK_LOOP_FORWARD, 300, go.EASING_LINEAR, 2)
+	function randomNumber()
+		number = math.random(2,25)
+		return number
+	end
+	label.set_text("#blabel",randomNumber())
+end
+
+local clock = os.clock
+
+function update(self,dt)
+end
+
+function sleep(n)  -- seconds
+	local t0 = clock()
+	while clock() - t0 <= n do end
+	local number=math.random() and math.random() and math.random(2, 25)
+	label.set_text("#blabel",number)
+end
+
+
+function on_reload(self)
+
+end
+
+function final(self)
+
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+function on_input(self, action_id, action)
+
+end

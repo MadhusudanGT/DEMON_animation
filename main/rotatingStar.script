@@ -1,0 +1,27 @@
+function init(self)
+	--go.animate(".", "rotation", go.PLAYBACK_ONCE_FORWARD, vmath.quat_rotation_z(-1.57),  go.EASING_LINEAR, self.speed)
+	--go.animate(".", "euler.z", go.PLAYBACK_LOOP_FORWARD, 360, go.EASING_LINEAR, 60/speed)
+
+	go.set(".", "euler.z", 0)
+	go.animate(".", "euler.z", go.PLAYBACK_LOOP_BACKWARD, 360, go.EASING_LINEAR, 2.0)
+end
+
+function final(self)
+	
+end
+
+function update(self, dt)
+	
+end
+
+function on_message(self, message_id, message, sender)
+	
+end
+
+function on_input(self, action_id, action)
+	
+end
+
+function on_reload(self)
+	
+end
